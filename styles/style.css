@@ -1,0 +1,145 @@
+/* Custom CSS for the Online Shopping UI */
+
+/* Body Styling */
+body {
+    background-color: #FFF5E5; /* Light cream background */
+    font-family: 'Arial', sans-serif;
+    color: #4F4F4F; /* Dark Gray text */
+}
+
+/* Navbar */
+.navbar {
+    background-color: #F27A54 !important; /* Dark Coral background for navbar */
+}
+.navbar-brand, .nav-link {
+    color: #ffffff !important; /* White text for navigation */
+}
+.nav-link:hover {
+    color: #FFC482 !important; /* Peach hover effect */
+}
+
+/* Product Cards */
+.card {
+    background-color: #FFF0D9; /* Very Light Peach background for cards */
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    transition: transform 0.2s ease;
+}
+.card:hover {
+    transform: scale(1.05); /* Zoom in slightly on hover */
+}
+.card-img-top {
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.card-title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #4F4F4F; /* Dark Gray for card titles */
+}
+.card-text {
+    color: #6c757d;
+}
+
+/* Buttons */
+.btn-primary {
+    background-color: #FF7F50; /* Coral for primary buttons */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-primary:hover {
+    background-color: #FFB07C; /* Lighter Coral on hover */
+}
+.btn-success {
+    background-color: #FFC482; /* Peach for success buttons */
+    border: none;
+    transition: background-color 0.3s ease;
+}
+.btn-success:hover {
+    background-color: #FFB07C; /* Lighter Coral on hover */
+}
+
+/* Cart Table */
+table {
+    background-color: #FFF0D9; /* Very Light Peach for the table */
+    border-radius: 8px;
+}
+table th, table td {
+    vertical-align: middle;
+}
+table th {
+    background-color: #F27A54; /* Dark Coral background */
+    color: #ffffff; /* White text */
+    text-align: center;
+}
+table td {
+    text-align: center;
+    color: #4F4F4F; /* Dark Gray text for table */
+}
+
+/* Checkout Form */
+form {
+    background-color: #FFF0D9; /* Very Light Peach form background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form label {
+    font-weight: bold;
+    color: #4F4F4F; /* Dark Gray for form labels */
+}
+form input, form select {
+    border-radius: 5px;
+    border: 1px solid #FFC482; /* Peach border */
+}
+
+
+/* Shopping Cart Styling */
+.table-header {
+    background-color: #F27A54; /* Dark Coral for table headers */
+    color: #fff; /* White text for table headers */
+}
+.table-hover tbody tr:hover {
+    background-color: #FFF0D9; /* Soft Peach hover effect on rows */
+}
+.quantity-input {
+    width: 60px;
+    text-align: center;
+}
+.subtotal-box {
+    border: 1px solid #FFC482;
+    background-color: #FFF5E5; /* Light Cream for subtotal box */
+    border-radius: 8px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Checkout Form Styling */
+form {
+    background-color: #FFF5E5; /* Light Cream form background */
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+form h5 {
+    color: #4F4F4F; /* Dark Gray headings */
+}
+form label {
+    font-weight: bold;
+    color: #4F4F4F;
+}
+form input {
+    border-radius: 5px;
+    border: 1px solid #FFC482; /* Peach border */
+}
+form .btn-lg {
+    background-color: #FF7F50; /* Coral for large button */
+    border: none;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+form .btn-lg:hover {
+    background-color: #FFB07C; /* Lighter Coral on hover */
+}
