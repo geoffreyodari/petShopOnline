@@ -20,7 +20,7 @@ const productsCard = (products)=>{
 }
 
 const products = async(row)=>{
-    const data = await fetch("./../products.json");
+    const data = await fetch("https://geoffreyodari.github.io/petShopOnline/products.json");
     const productList= await data.json();
     sessionStorage.setItem("productList",JSON.stringify(productList));
     row.innerHTML=productsCard(productList)
